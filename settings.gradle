@@ -1,2 +1,3 @@
 rootProject.name = "To Do App"
 include ':app'
+include ':ondemand'
