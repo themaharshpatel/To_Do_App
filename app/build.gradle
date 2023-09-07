@@ -7,7 +7,7 @@ plugins {
     id 'androidx.navigation.safeargs.kotlin'
 }
 android {
-    compileSdkVersion rootProject.compileSdkVersion
+    compileSdk rootProject.compileSdkVersion
 
     defaultConfig {
         applicationId "com.codinginflow.mvvmtodo"
@@ -40,6 +40,7 @@ android {
         jvmTarget = '1.8'
         freeCompilerArgs += "-Xopt-in=kotlinx.coroutines.ExperimentalCoroutinesApi"
     }
+    namespace 'dev.maharsh.todoapp'
 }
 
 dependencies {
